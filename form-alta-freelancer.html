@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ca" xml:lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Pàgina oficial einavirtual.com">
+    <meta name="author" content="einavirtual.com">
+    <link rel="icon" href="img/icons/ev-icona.gif">
+
+    <title>Nou usuari freelancer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/personal.css" rel="stylesheet">
+	<link href="css/hidden.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="/es/docs/bootstrap/examples/carousel/carousel.css" rel="stylesheet">
+	<meta class="os-tdn" http-equiv="Content-Language" content="es"><meta class="os-tdn" property="og:locale" content="es">
+</head>
+
+<body>
+
+<div class="container-fluid">
+	<a class="btn btn-default" href="form-llistat.html" role="button" title="Torna a la pàgina d'inici">LListat de formularis</a>
+	<h1 class="text-center"><small>Crear un nou Usuari Freelancer</small></h1>
+	<hr class="featurette-divider">
+</div>
+							 <!-----------------------------------  Formulari Nou Usuari --------------------------------------------------------------------------------------------------2-->
+<div class="container-fluid"><!------------------------------------  Capçalera del formulari  ------------------------------------------------------------------------2-->
+			<div class="col-md-3"></div>
+			<div class="col-md-5 barra-e barra-e-blau">
+				<div class="row featurette">
+						<div class="col-xs-9"><h3>Crear Usuari Freelancer<br></h3></div>
+						<div class="col-xs-3 text-right">
+							<a class="globus" href="#"><img src="img/icons/help.png" alt="Help" height="20" width="20" />
+							<span class="custom info text-left"><img src="img/icons/info.png" alt="Information" height="48" width="48" style="border:0; margin: -20px 0 0 182px; float:left; position:absolute;" />
+							<em>Informació</em>
+							<p><strong>Títol</strong></p>
+							<p>contingut</p>
+							</span>
+							</a>
+						</div>
+				</div><hr class="linea-hor"><!------------  / final Capçalera del formulari  ------------------------------------------------------------------------2-->
+							   <!--oooooooooooooooooooooooooooooooooooo  Form  ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo2-->
+				<div class="row featurette">
+						<div class="col-md-10">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-md-4 control-label" for="formGroupInputLarge">Nom</label>
+									<div class="col-md-6">
+										<input class="form-control" type="text" id="nom-freelacer" placeholder="Escriu el teu nom">
+									</div>
+									<div class="col-md-2 checkbox hidden-css">
+										<label>
+											<input type="checkbox"> Obligatori
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-md-4 control-label" for="formGroupInputSmall">Cogmoms</label>
+									<div class="col-md-6">
+										<input class="form-control" type="text" id="cognoms-freelancer" placeholder="Escriu els teus cognoms">
+									</div>
+									<div class="col-md-2 checkbox hidden-css">
+										<label>
+											<input type="checkbox"> Obligatori
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail3" class="col-md-4 control-label text-right">Email</label>
+									<div class="col-md-6">
+										<input type="email" class="form-control" id="nou-email-freelancer" placeholder="L'Email serà el teu nom d'usuari">
+									</div>
+									<div class="col-md-2 checkbox hidden-css">
+										<label>
+											<input type="checkbox"> Obligatori
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword3" class="col-md-4 control-label text-right">Contrasenya</label>
+									<div class="col-md-6">
+										<input type="password" class="form-control" id="nou-pass-freelancer" placeholder="Escriu una contrasenya">
+									</div>
+									<div class="col-md-2 checkbox hidden-css">
+										<label>
+											<input type="checkbox"> Obligatori
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword3" class="col-md-4 control-label">Païs</label>
+									<div class="col-md-6">
+										<select id="selCountry" class="form-control" data-dropup-auto="false" name="selCountry">
+										<option value="">Selecciona..</option>
+										
+									<option data-value="ES" value="ES"  data-content="<img src='img/flags/es.gif'> España" class="ico-country">
+                  	España                  </option>
+									<option data-value="CAT" value="CAT"  data-content="<img src='img/flags/cat.gif'> España" class="ico-country">
+                  	Catalunya               </option>
+									<option data-value="AD" value="AD"  data-content="<img src='img/flags/ad.gif'> Andorra" class="ico-country">
+                  	Andorra                  </option>
+                                    <option data-value="AR" value="AR"  data-content="<img src='img/flags/ar.gif'> Argentina" class="ico-country">
+                  	Argentina                  </option>
+                                    <option data-value="BO" value="BO"  data-content="<img src='img/flags/bo.gif'> Bolivia" class="ico-country">
+                  	Bolivia                  </option>
+                                    <option data-value="BR" value="BR"  data-content="<img src='img/flags/br.gif'> Brasil" class="ico-country">
+                  	Brasil                  </option>
+                                    <option data-value="CL" value="CL"  data-content="<img src='img/flags/cl.gif'> Chile" class="ico-country">
+                  	Chile                  </option>
+                                    <option data-value="CO" value="CO"  data-content="<img src='img/flags/co.gif'> Colombia" class="ico-country">
+                  	Colombia                  </option>
+                                    <option data-value="CR" value="CR"  data-content="<img src='img/flags/cr.gif'> Costa Rica" class="ico-country">
+                  	Costa Rica                  </option>
+                                    <option data-value="CU" value="CU"  data-content="<img src='img/flags/cu.gif'> Cuba" class="ico-country">
+                  	Cuba                  </option>
+                                    <option data-value="DO" value="DO"  data-content="<img src='img/flags/do.gif'> Dominican Republic" class="ico-country">
+                  	Dominican Republic                  </option>
+                                    <option data-value="EC" value="EC"  data-content="<img src='img/flags/ec.gif'> Ecuador" class="ico-country">
+                  	Ecuador                  </option>
+                                    <option data-value="GT" value="GT"  data-content="<img src='img/flags/gt.gif'> Guatemala" class="ico-country">
+                  	Guatemala                  </option>
+                                    <option data-value="MX" value="MX"  data-content="<img src='img/flags/mx.gif'> Mexico" class="ico-country">
+                  	Mexico                  </option>
+                                    <option data-value="NI" value="NI"  data-content="<img src='img/flags/ni.gif'> Nicaragua" class="ico-country">
+                  	Nicaragua                  </option>
+                                    <option data-value="PA" value="PA"  data-content="<img src='img/flags/pa.gif'> Panama" class="ico-country">
+                  	Panama                  </option>
+                                    <option data-value="PY" value="PY"  data-content="<img src='img/flags/py.gif'> Paraguay" class="ico-country">
+                  	Paraguay                  </option>
+                                    <option data-value="PE" value="PE"  data-content="<img src='img/flags/pe.gif'> Peru" class="ico-country">
+                  	Peru                  </option>
+                                    <option data-value="PR" value="PR"  data-content="<img src='img/flags/pr.gif'> Puerto Rico" class="ico-country">
+                  	Puerto Rico                  </option>
+                                    <option data-value="UY" value="UY"  data-content="<img src='img/flags/uy.gif'> Uruguay" class="ico-country">
+                  	Uruguay                  </option>
+                                    <option data-value="VE" value="VE"  data-content="<img src='img/flags/ve.gif'> Venezuela" class="ico-country">
+                  	Venezuela                  </option>
+                                    <option data-value="PT" value="PT"  data-content="<img src='img/flags/pt.gif'> Portugal" class="ico-country">
+                  	Portugal                  </option>
+                                    <option data-value="AF" value="AF"  data-content="<img src='img/flags/af.gif'> Afghanistan" class="ico-country">
+                  	Afghanistan                  </option>
+                                    <option data-value="AL" value="AL"  data-content="<img src='img/flags/al.gif'> Albania" class="ico-country">
+                  	Albania                  </option>
+                                    <option data-value="DZ" value="DZ"  data-content="<img src='img/flags/dz.gif'> Algeria" class="ico-country">
+                  	Algeria                  </option>
+                                    <option data-value="AS" value="AS"  data-content="<img src='img/flags/as.gif'> American Samoa" class="ico-country">
+                  	American Samoa                  </option>
+                                    <option data-value="AO" value="AO"  data-content="<img src='img/flags/ao.gif'> Angola" class="ico-country">
+                  	Angola                  </option>
+                                    <option data-value="AI" value="AI"  data-content="<img src='img/flags/ai.gif'> Anguilla" class="ico-country">
+                  	Anguilla                  </option>
+                                    <option data-value="AQ" value="AQ"  data-content="<img src='img/flags/aq.gif'> Antarctica" class="ico-country">
+                  	Antarctica                  </option>
+                                    <option data-value="AG" value="AG"  data-content="<img src='img/flags/ag.gif'> Antigua and Barbuda" class="ico-country">
+                  	Antigua and Barbuda                  </option>
+                                    <option data-value="AM" value="AM"  data-content="<img src='img/flags/am.gif'> Armenia" class="ico-country">
+                  	Armenia                  </option>
+                                    <option data-value="AW" value="AW"  data-content="<img src='img/flags/aw.gif'> Aruba" class="ico-country">
+                  	Aruba                  </option>
+                                    <option data-value="AU" value="AU"  data-content="<img src='img/flags/au.gif'> Australia" class="ico-country">
+                  	Australia                  </option>
+                                    <option data-value="AT" value="AT"  data-content="<img src='img/flags/at.gif'> Austria" class="ico-country">
+                  	Austria                  </option>
+                                    <option data-value="AZ" value="AZ"  data-content="<img src='img/flags/az.gif'> Azerbaijan" class="ico-country">
+                  	Azerbaijan                  </option>
+                                    <option data-value="BS" value="BS"  data-content="<img src='img/flags/bs.gif'> Bahamas" class="ico-country">
+                  	Bahamas                  </option>
+                                    <option data-value="BH" value="BH"  data-content="<img src='img/flags/bh.gif'> Bahrain" class="ico-country">
+                  	Bahrain                  </option>
+                                    <option data-value="BD" value="BD"  data-content="<img src='img/flags/bd.gif'> Bangladesh" class="ico-country">
+                  	Bangladesh                  </option>
+                                    <option data-value="BB" value="BB"  data-content="<img src='img/flags/bb.gif'> Barbados" class="ico-country">
+                  	Barbados                  </option>
+                                    <option data-value="BY" value="BY"  data-content="<img src='img/flags/by.gif'> Belarus" class="ico-country">
+                  	Belarus                  </option>
+                                    <option data-value="BE" value="BE"  data-content="<img src='img/flags/be.gif'> Belgium" class="ico-country">
+                  	Belgium                  </option>
+                                    <option data-value="BZ" value="BZ"  data-content="<img src='img/flags/bz.gif'> Belize" class="ico-country">
+                  	Belize                  </option>
+                                    <option data-value="BJ" value="BJ"  data-content="<img src='img/flags/bj.gif'> Benin" class="ico-country">
+                  	Benin                  </option>
+                                    <option data-value="BM" value="BM"  data-content="<img src='img/flags/bm.gif'> Bermuda" class="ico-country">
+                  	Bermuda                  </option>
+                                    <option data-value="BT" value="BT"  data-content="<img src='img/flags/bt.gif'> Bhutan" class="ico-country">
+                  	Bhutan                  </option>
+                                    <option data-value="BA" value="BA"  data-content="<img src='img/flags/ba.gif'> Bosnia and Herzegovina" class="ico-country">
+                  	Bosnia and Herzegovina                  </option>
+                                    <option data-value="BW" value="BW"  data-content="<img src='img/flags/bw.gif'> Botswana" class="ico-country">
+                  	Botswana                  </option>
+                                    <option data-value="BV" value="BV"  data-content="<img src='img/flags/bv.gif'> Bouvet Island" class="ico-country">
+                  	Bouvet Island                  </option>
+                                    <option data-value="IO" value="IO"  data-content="<img src='img/flags/io.gif'> British Indian Ocean Territory" class="ico-country">
+                  	British Indian Ocean Territory                  </option>
+                                    <option data-value="BN" value="BN"  data-content="<img src='img/flags/bn.gif'> Brunei Darussalam" class="ico-country">
+                  	Brunei Darussalam                  </option>
+                                    <option data-value="BG" value="BG"  data-content="<img src='img/flags/bg.gif'> Bulgaria" class="ico-country">
+                  	Bulgaria                  </option>
+                                    <option data-value="BF" value="BF"  data-content="<img src='img/flags/bf.gif'> Burkina Faso" class="ico-country">
+                  	Burkina Faso                  </option>
+                                    <option data-value="BI" value="BI"  data-content="<img src='img/flags/bi.gif'> Burundi" class="ico-country">
+                  	Burundi                  </option>
+                                    <option data-value="KH" value="KH"  data-content="<img src='img/flags/kh.gif'> Cambodia" class="ico-country">
+                  	Cambodia                  </option>
+                                    <option data-value="CM" value="CM"  data-content="<img src='img/flags/cm.gif'> Cameroon" class="ico-country">
+                  	Cameroon                  </option>
+                                    <option data-value="CA" value="CA"  data-content="<img src='img/flags/ca.gif'> Canada" class="ico-country">
+                  	Canada                  </option>
+                                    <option data-value="CV" value="CV"  data-content="<img src='img/flags/cv.gif'> Cape Verde" class="ico-country">
+                  	Cape Verde                  </option>
+                                    <option data-value="KY" value="KY"  data-content="<img src='img/flags/ky.gif'> Cayman Islands" class="ico-country">
+                  	Cayman Islands                  </option>
+                                    <option data-value="CF" value="CF"  data-content="<img src='img/flags/cf.gif'> Central African Republic" class="ico-country">
+                  	Central African Republic                  </option>
+                                    <option data-value="TD" value="TD"  data-content="<img src='img/flags/td.gif'> Chad" class="ico-country">
+                  	Chad                  </option>
+                                    <option data-value="CN" value="CN"  data-content="<img src='img/flags/cn.gif'> China" class="ico-country">
+                  	China                  </option>
+                                    <option data-value="CX" value="CX"  data-content="<img src='img/flags/cx.gif'> Christmas Island" class="ico-country">
+                  	Christmas Island                  </option>
+                                    <option data-value="CC" value="CC"  data-content="<img src='img/flags/cc.gif'> Cocos (Keeling) Islands" class="ico-country">
+                  	Cocos (Keeling) Islands                  </option>
+                                    <option data-value="KM" value="KM"  data-content="<img src='img/flags/km.gif'> Comoros" class="ico-country">
+                  	Comoros                  </option>
+                                    <option data-value="CG" value="CG"  data-content="<img src='img/flags/cg.gif'> Congo" class="ico-country">
+                  	Congo                  </option>
+                                    <option data-value="CD" value="CD"  data-content="<img src='img/flags/cd.gif'> Congo, The Democratic Republic of the" class="ico-country">
+                  	Congo, The Democratic Republic of the                  </option>
+                                    <option data-value="CK" value="CK"  data-content="<img src='img/flags/ck.gif'> Cook Islands" class="ico-country">
+                  	Cook Islands                  </option>
+                                    <option data-value="CI" value="CI"  data-content="<img src='img/flags/ci.gif'> Côte D'Ivoire" class="ico-country">
+                  	Côte D'Ivoire                  </option>
+                                    <option data-value="HR" value="HR"  data-content="<img src='img/flags/hr.gif'> Croatia" class="ico-country">
+                  	Croatia                  </option>
+                                    <option data-value="CY" value="CY"  data-content="<img src='img/flags/cy.gif'> Cyprus" class="ico-country">
+                  	Cyprus                  </option>
+                                    <option data-value="CZ" value="CZ"  data-content="<img src='img/flags/cz.gif'> Czech Republic" class="ico-country">
+                  	Czech Republic                  </option>
+                                    <option data-value="DK" value="DK"  data-content="<img src='img/flags/dk.gif'> Denmark" class="ico-country">
+                  	Denmark                  </option>
+                                    <option data-value="DJ" value="DJ"  data-content="<img src='img/flags/dj.gif'> Djibouti" class="ico-country">
+                  	Djibouti                  </option>
+                                    <option data-value="DM" value="DM"  data-content="<img src='img/flags/dm.gif'> Dominica" class="ico-country">
+                  	Dominica                  </option>
+                                    <option data-value="EG" value="EG"  data-content="<img src='img/flags/eg.gif'> Egypt" class="ico-country">
+                  	Egypt                  </option>
+                                    <option data-value="SV" value="SV"  data-content="<img src='img/flags/sv.gif'> El Salvador" class="ico-country">
+                  	El Salvador                  </option>
+                                    <option data-value="GQ" value="GQ"  data-content="<img src='img/flags/gq.gif'> Equatorial Guinea" class="ico-country">
+                  	Equatorial Guinea                  </option>
+                                    <option data-value="ER" value="ER"  data-content="<img src='img/flags/er.gif'> Eritrea" class="ico-country">
+                  	Eritrea                  </option>
+                                    <option data-value="EE" value="EE"  data-content="<img src='img/flags/ee.gif'> Estonia" class="ico-country">
+                  	Estonia                  </option>
+                                    <option data-value="ET" value="ET"  data-content="<img src='img/flags/et.gif'> Ethiopia" class="ico-country">
+                  	Ethiopia                  </option>
+                                    <option data-value="FK" value="FK"  data-content="<img src='img/flags/fk.gif'> Falkland Islands (Malvinas)" class="ico-country">
+                  	Falkland Islands (Malvinas)                  </option>
+                                    <option data-value="FO" value="FO"  data-content="<img src='img/flags/fo.gif'> Faroe Islands" class="ico-country">
+                  	Faroe Islands                  </option>
+                                    <option data-value="FJ" value="FJ"  data-content="<img src='img/flags/fj.gif'> Fiji" class="ico-country">
+                  	Fiji                  </option>
+                                    <option data-value="FI" value="FI"  data-content="<img src='img/flags/fi.gif'> Finland" class="ico-country">
+                  	Finland                  </option>
+                                    <option data-value="FR" value="FR"  data-content="<img src='img/flags/fr.gif'> France" class="ico-country">
+                  	France                  </option>
+                                    <option data-value="GF" value="GF"  data-content="<img src='img/flags/gf.gif'> French Guiana" class="ico-country">
+                  	French Guiana                  </option>
+                                    <option data-value="PF" value="PF"  data-content="<img src='img/flags/pf.gif'> French Polynesia" class="ico-country">
+                  	French Polynesia                  </option>
+                                    <option data-value="TF" value="TF"  data-content="<img src='img/flags/tf.gif'> French Southern Territories" class="ico-country">
+                  	French Southern Territories                  </option>
+                                    <option data-value="GA" value="GA"  data-content="<img src='img/flags/ga.gif'> Gabon" class="ico-country">
+                  	Gabon                  </option>
+                                    <option data-value="GM" value="GM"  data-content="<img src='img/flags/gm.gif'> Gambia" class="ico-country">
+                  	Gambia                  </option>
+                                    <option data-value="GE" value="GE"  data-content="<img src='img/flags/ge.gif'> Georgia" class="ico-country">
+                  	Georgia                  </option>
+                                    <option data-value="DE" value="DE"  data-content="<img src='img/flags/de.gif'> Germany" class="ico-country">
+                  	Germany                  </option>
+                                    <option data-value="GH" value="GH"  data-content="<img src='img/flags/gh.gif'> Ghana" class="ico-country">
+                  	Ghana                  </option>
+                                    <option data-value="GI" value="GI"  data-content="<img src='img/flags/gi.gif'> Gibraltar" class="ico-country">
+                  	Gibraltar                  </option>
+                                    <option data-value="GR" value="GR"  data-content="<img src='img/flags/gr.gif'> Greece" class="ico-country">
+                  	Greece                  </option>
+                                    <option data-value="GL" value="GL"  data-content="<img src='img/flags/gl.gif'> Greenland" class="ico-country">
+                  	Greenland                  </option>
+                                    <option data-value="GD" value="GD"  data-content="<img src='img/flags/gd.gif'> Grenada" class="ico-country">
+                  	Grenada                  </option>
+                                    <option data-value="GP" value="GP"  data-content="<img src='img/flags/gp.gif'> Guadeloupe" class="ico-country">
+                  	Guadeloupe                  </option>
+                                    <option data-value="GU" value="GU"  data-content="<img src='img/flags/gu.gif'> Guam" class="ico-country">
+                  	Guam                  </option>
+                                    <option data-value="GG" value="GG"  data-content="<img src='img/flags/gg.gif'> Guernsey" class="ico-country">
+                  	Guernsey                  </option>
+                                    <option data-value="GN" value="GN"  data-content="<img src='img/flags/gn.gif'> Guinea" class="ico-country">
+                  	Guinea                  </option>
+                                    <option data-value="GW" value="GW"  data-content="<img src='img/flags/gw.gif'> Guinea-Bissau" class="ico-country">
+                  	Guinea-Bissau                  </option>
+                                    <option data-value="GY" value="GY"  data-content="<img src='img/flags/gy.gif'> Guyana" class="ico-country">
+                  	Guyana                  </option>
+                                    <option data-value="HT" value="HT"  data-content="<img src='img/flags/ht.gif'> Haiti" class="ico-country">
+                  	Haiti                  </option>
+                                    <option data-value="HM" value="HM"  data-content="<img src='img/flags/hm.gif'> Heard Island and McDonald Islands" class="ico-country">
+                  	Heard Island and McDonald Islands                  </option>
+                                    <option data-value="VA" value="VA"  data-content="<img src='img/flags/va.gif'> Holy See (Vatican City State)" class="ico-country">
+                  	Holy See (Vatican City State)                  </option>
+                                    <option data-value="HN" value="HN"  data-content="<img src='img/flags/hn.gif'> Honduras" class="ico-country">
+                  	Honduras                  </option>
+                                    <option data-value="HK" value="HK"  data-content="<img src='img/flags/hk.gif'> Hong Kong" class="ico-country">
+                  	Hong Kong                  </option>
+                                    <option data-value="HU" value="HU"  data-content="<img src='img/flags/hu.gif'> Hungary" class="ico-country">
+                  	Hungary                  </option>
+                                    <option data-value="IS" value="IS"  data-content="<img src='img/flags/is.gif'> Iceland" class="ico-country">
+                  	Iceland                  </option>
+                                    <option data-value="IN" value="IN"  data-content="<img src='img/flags/in.gif'> India" class="ico-country">
+                  	India                  </option>
+                                    <option data-value="ID" value="ID"  data-content="<img src='img/flags/id.gif'> Indonesia" class="ico-country">
+                  	Indonesia                  </option>
+                                    <option data-value="IR" value="IR"  data-content="<img src='img/flags/ir.gif'> Iran, Islamic Republic of" class="ico-country">
+                  	Iran, Islamic Republic of                  </option>
+                                    <option data-value="IQ" value="IQ"  data-content="<img src='img/flags/iq.gif'> Iraq" class="ico-country">
+                  	Iraq                  </option>
+                                    <option data-value="IE" value="IE"  data-content="<img src='img/flags/ie.gif'> Ireland" class="ico-country">
+                  	Ireland                  </option>
+                                    <option data-value="IM" value="IM"  data-content="<img src='img/flags/im.gif'> Isle of Man" class="ico-country">
+                  	Isle of Man                  </option>
+                                    <option data-value="IL" value="IL"  data-content="<img src='img/flags/il.gif'> Israel" class="ico-country">
+                  	Israel                  </option>
+                                    <option data-value="IT" value="IT"  data-content="<img src='img/flags/it.gif'> Italy" class="ico-country">
+                  	Italy                  </option>
+                                    <option data-value="JM" value="JM"  data-content="<img src='img/flags/jm.gif'> Jamaica" class="ico-country">
+                  	Jamaica                  </option>
+                                    <option data-value="JP" value="JP"  data-content="<img src='img/flags/jp.gif'> Japan" class="ico-country">
+                  	Japan                  </option>
+                                    <option data-value="JE" value="JE"  data-content="<img src='img/flags/je.gif'> Jersey" class="ico-country">
+                  	Jersey                  </option>
+                                    <option data-value="JO" value="JO"  data-content="<img src='img/flags/jo.gif'> Jordan" class="ico-country">
+                  	Jordan                  </option>
+                                    <option data-value="KZ" value="KZ"  data-content="<img src='img/flags/kz.gif'> Kazakhstan" class="ico-country">
+                  	Kazakhstan                  </option>
+                                    <option data-value="KE" value="KE"  data-content="<img src='img/flags/ke.gif'> Kenya" class="ico-country">
+                  	Kenya                  </option>
+                                    <option data-value="KI" value="KI"  data-content="<img src='img/flags/ki.gif'> Kiribati" class="ico-country">
+                  	Kiribati                  </option>
+                                    <option data-value="KP" value="KP"  data-content="<img src='img/flags/kp.gif'> Korea, Democratic People's Republic of" class="ico-country">
+                  	Korea, Democratic People's Republic of                  </option>
+                                    <option data-value="KR" value="KR"  data-content="<img src='img/flags/kr.gif'> Korea, Republic of" class="ico-country">
+                  	Korea, Republic of                  </option>
+                                    <option data-value="KW" value="KW"  data-content="<img src='img/flags/kw.gif'> Kuwait" class="ico-country">
+                  	Kuwait                  </option>
+                                    <option data-value="KG" value="KG"  data-content="<img src='img/flags/kg.gif'> Kyrgyzstan" class="ico-country">
+                  	Kyrgyzstan                  </option>
+                                    <option data-value="LA" value="LA"  data-content="<img src='img/flags/la.gif'> Lao People's Democratic Republic" class="ico-country">
+                  	Lao People's Democratic Republic                  </option>
+                                    <option data-value="LV" value="LV"  data-content="<img src='img/flags/lv.gif'> Latvia" class="ico-country">
+                  	Latvia                  </option>
+                                    <option data-value="LB" value="LB"  data-content="<img src='img/flags/lb.gif'> Lebanon" class="ico-country">
+                  	Lebanon                  </option>
+                                    <option data-value="LS" value="LS"  data-content="<img src='img/flags/ls.gif'> Lesotho" class="ico-country">
+                  	Lesotho                  </option>
+                                    <option data-value="LR" value="LR"  data-content="<img src='img/flags/lr.gif'> Liberia" class="ico-country">
+                  	Liberia                  </option>
+                                    <option data-value="LY" value="LY"  data-content="<img src='img/flags/ly.gif'> Libyan Arab Jamahiriya" class="ico-country">
+                  	Libyan Arab Jamahiriya                  </option>
+                                    <option data-value="LI" value="LI"  data-content="<img src='img/flags/li.gif'> Liechtenstein" class="ico-country">
+                  	Liechtenstein                  </option>
+                                    <option data-value="LT" value="LT"  data-content="<img src='img/flags/lt.gif'> Lithuania" class="ico-country">
+                  	Lithuania                  </option>
+                                    <option data-value="LU" value="LU"  data-content="<img src='img/flags/lu.gif'> Luxembourg" class="ico-country">
+                  	Luxembourg                  </option>
+                                    <option data-value="MO" value="MO"  data-content="<img src='img/flags/mo.gif'> Macao" class="ico-country">
+                  	Macao                  </option>
+                                    <option data-value="MK" value="MK"  data-content="<img src='img/flags/mk.gif'> Macedonia, The Former Yugoslav Republic of" class="ico-country">
+                  	Macedonia, The Former Yugoslav Republic of                  </option>
+                                    <option data-value="MG" value="MG"  data-content="<img src='img/flags/mg.gif'> Madagascar" class="ico-country">
+                  	Madagascar                  </option>
+                                    <option data-value="MW" value="MW"  data-content="<img src='img/flags/mw.gif'> Malawi" class="ico-country">
+                  	Malawi                  </option>
+                                    <option data-value="MY" value="MY"  data-content="<img src='img/flags/my.gif'> Malaysia" class="ico-country">
+                  	Malaysia                  </option>
+                                    <option data-value="MV" value="MV"  data-content="<img src='img/flags/mv.gif'> Maldives" class="ico-country">
+                  	Maldives                  </option>
+                                    <option data-value="ML" value="ML"  data-content="<img src='img/flags/ml.gif'> Mali" class="ico-country">
+                  	Mali                  </option>
+                                    <option data-value="MT" value="MT"  data-content="<img src='img/flags/mt.gif'> Malta" class="ico-country">
+                  	Malta                  </option>
+                                    <option data-value="MH" value="MH"  data-content="<img src='img/flags/mh.gif'> Marshall Islands" class="ico-country">
+                  	Marshall Islands                  </option>
+                                    <option data-value="MQ" value="MQ"  data-content="<img src='img/flags/mq.gif'> Martinique" class="ico-country">
+                  	Martinique                  </option>
+                                    <option data-value="MR" value="MR"  data-content="<img src='img/flags/mr.gif'> Mauritania" class="ico-country">
+                  	Mauritania                  </option>
+                                    <option data-value="MU" value="MU"  data-content="<img src='img/flags/mu.gif'> Mauritius" class="ico-country">
+                  	Mauritius                  </option>
+                                    <option data-value="YT" value="YT"  data-content="<img src='img/flags/yt.gif'> Mayotte" class="ico-country">
+                  	Mayotte                  </option>
+                                    <option data-value="FM" value="FM"  data-content="<img src='img/flags/fm.gif'> Micronesia, Federated States of" class="ico-country">
+                  	Micronesia, Federated States of                  </option>
+                                    <option data-value="MD" value="MD"  data-content="<img src='img/flags/md.gif'> Moldova, Republic of" class="ico-country">
+                  	Moldova, Republic of                  </option>
+                                    <option data-value="MC" value="MC"  data-content="<img src='img/flags/mc.gif'> Monaco" class="ico-country">
+                  	Monaco                  </option>
+                                    <option data-value="MN" value="MN"  data-content="<img src='img/flags/mn.gif'> Mongolia" class="ico-country">
+                  	Mongolia                  </option>
+                                    <option data-value="ME" value="ME"  data-content="<img src='img/flags/me.gif'> Montenegro" class="ico-country">
+                  	Montenegro                  </option>
+                                    <option data-value="MS" value="MS"  data-content="<img src='img/flags/ms.gif'> Montserrat" class="ico-country">
+                  	Montserrat                  </option>
+                                    <option data-value="MA" value="MA"  data-content="<img src='img/flags/ma.gif'> Morocco" class="ico-country">
+                  	Morocco                  </option>
+                                    <option data-value="MZ" value="MZ"  data-content="<img src='img/flags/mz.gif'> Mozambique" class="ico-country">
+                  	Mozambique                  </option>
+                                    <option data-value="MM" value="MM"  data-content="<img src='img/flags/mm.gif'> Myanmar" class="ico-country">
+                  	Myanmar                  </option>
+                                    <option data-value="NA" value="NA"  data-content="<img src='img/flags/na.gif'> Namibia" class="ico-country">
+                  	Namibia                  </option>
+                                    <option data-value="NR" value="NR"  data-content="<img src='img/flags/nr.gif'> Nauru" class="ico-country">
+                  	Nauru                  </option>
+                                    <option data-value="NP" value="NP"  data-content="<img src='img/flags/np.gif'> Nepal" class="ico-country">
+                  	Nepal                  </option>
+                                    <option data-value="NL" value="NL"  data-content="<img src='img/flags/nl.gif'> Netherlands" class="ico-country">
+                  	Netherlands                  </option>
+                                    <option data-value="AN" value="AN"  data-content="<img src='img/flags/an.gif'> Netherlands Antilles" class="ico-country">
+                  	Netherlands Antilles                  </option>
+                                    <option data-value="NC" value="NC"  data-content="<img src='img/flags/nc.gif'> New Caledonia" class="ico-country">
+                  	New Caledonia                  </option>
+                                    <option data-value="NZ" value="NZ"  data-content="<img src='img/flags/nz.gif'> New Zealand" class="ico-country">
+                  	New Zealand                  </option>
+                                    <option data-value="NE" value="NE"  data-content="<img src='img/flags/ne.gif'> Niger" class="ico-country">
+                  	Niger                  </option>
+                                    <option data-value="NG" value="NG"  data-content="<img src='img/flags/ng.gif'> Nigeria" class="ico-country">
+                  	Nigeria                  </option>
+                                    <option data-value="NU" value="NU"  data-content="<img src='img/flags/nu.gif'> Niue" class="ico-country">
+                  	Niue                  </option>
+                                    <option data-value="NF" value="NF"  data-content="<img src='img/flags/nf.gif'> Norfolk Island" class="ico-country">
+                  	Norfolk Island                  </option>
+                                    <option data-value="MP" value="MP"  data-content="<img src='img/flags/mp.gif'> Northern Mariana Islands" class="ico-country">
+                  	Northern Mariana Islands                  </option>
+                                    <option data-value="NO" value="NO"  data-content="<img src='img/flags/no.gif'> Norway" class="ico-country">
+                  	Norway                  </option>
+                                    <option data-value="OM" value="OM"  data-content="<img src='img/flags/om.gif'> Oman" class="ico-country">
+                  	Oman                  </option>
+                                    <option data-value="PK" value="PK"  data-content="<img src='img/flags/pk.gif'> Pakistan" class="ico-country">
+                  	Pakistan                  </option>
+                                    <option data-value="PW" value="PW"  data-content="<img src='img/flags/pw.gif'> Palau" class="ico-country">
+                  	Palau                  </option>
+                                    <option data-value="PS" value="PS"  data-content="<img src='img/flags/ps.gif'> Palestinian Territory, Occupied" class="ico-country">
+                  	Palestinian Territory, Occupied                  </option>
+                                    <option data-value="PG" value="PG"  data-content="<img src='img/flags/pg.gif'> Papua New Guinea" class="ico-country">
+                  	Papua New Guinea                  </option>
+                                    <option data-value="PH" value="PH"  data-content="<img src='img/flags/ph.gif'> Philippines" class="ico-country">
+                  	Philippines                  </option>
+                                    <option data-value="PN" value="PN"  data-content="<img src='img/flags/pn.gif'> Pitcairn" class="ico-country">
+                  	Pitcairn                  </option>
+                                    <option data-value="PL" value="PL"  data-content="<img src='img/flags/pl.gif'> Poland" class="ico-country">
+                  	Poland                  </option>
+                                    <option data-value="QA" value="QA"  data-content="<img src='img/flags/qa.gif'> Qatar" class="ico-country">
+                  	Qatar                  </option>
+                                    <option data-value="RE" value="RE"  data-content="<img src='img/flags/re.gif'> Reunion" class="ico-country">
+                  	Reunion                  </option>
+                                    <option data-value="RO" value="RO"  data-content="<img src='img/flags/ro.gif'> Romania" class="ico-country">
+                  	Romania                  </option>
+                                    <option data-value="RU" value="RU"  data-content="<img src='img/flags/ru.gif'> Russian Federation" class="ico-country">
+                  	Russian Federation                  </option>
+                                    <option data-value="RW" value="RW"  data-content="<img src='img/flags/rw.gif'> Rwanda" class="ico-country">
+                  	Rwanda                  </option>
+                                    <option data-value="BL" value="BL"  data-content="<img src='img/flags/bl.gif'> Saint Barthélemy" class="ico-country">
+                  	Saint Barthélemy                  </option>
+                                    <option data-value="SH" value="SH"  data-content="<img src='img/flags/sh.gif'> Saint Helena" class="ico-country">
+                  	Saint Helena                  </option>
+                                    <option data-value="KN" value="KN"  data-content="<img src='img/flags/kn.gif'> Saint Kitts and Nevis" class="ico-country">
+                  	Saint Kitts and Nevis                  </option>
+                                    <option data-value="LC" value="LC"  data-content="<img src='img/flags/lc.gif'> Saint Lucia" class="ico-country">
+                  	Saint Lucia                  </option>
+                                    <option data-value="MF" value="MF"  data-content="<img src='img/flags/mf.gif'> Saint Martin" class="ico-country">
+                  	Saint Martin                  </option>
+                                    <option data-value="PM" value="PM"  data-content="<img src='img/flags/pm.gif'> Saint Pierre and Miquelon" class="ico-country">
+                  	Saint Pierre and Miquelon                  </option>
+                                    <option data-value="VC" value="VC"  data-content="<img src='img/flags/vc.gif'> Saint Vincent and the Grenadines" class="ico-country">
+                  	Saint Vincent and the Grenadines                  </option>
+                                    <option data-value="WS" value="WS"  data-content="<img src='img/flags/ws.gif'> Samoa" class="ico-country">
+                  	Samoa                  </option>
+                                    <option data-value="SM" value="SM"  data-content="<img src='img/flags/sm.gif'> San Marino" class="ico-country">
+                  	San Marino                  </option>
+                                    <option data-value="ST" value="ST"  data-content="<img src='img/flags/st.gif'> Sao Tome and Principe" class="ico-country">
+                  	Sao Tome and Principe                  </option>
+                                    <option data-value="SA" value="SA"  data-content="<img src='img/flags/sa.gif'> Saudi Arabia" class="ico-country">
+                  	Saudi Arabia                  </option>
+                                    <option data-value="SN" value="SN"  data-content="<img src='img/flags/sn.gif'> Senegal" class="ico-country">
+                  	Senegal                  </option>
+                                    <option data-value="RS" value="RS"  data-content="<img src='img/flags/rs.gif'> Serbia" class="ico-country">
+                  	Serbia                  </option>
+                                    <option data-value="SC" value="SC"  data-content="<img src='img/flags/sc.gif'> Seychelles" class="ico-country">
+                  	Seychelles                  </option>
+                                    <option data-value="SL" value="SL"  data-content="<img src='img/flags/sl.gif'> Sierra Leone" class="ico-country">
+                  	Sierra Leone                  </option>
+                                    <option data-value="SG" value="SG"  data-content="<img src='img/flags/sg.gif'> Singapore" class="ico-country">
+                  	Singapore                  </option>
+                                    <option data-value="SK" value="SK"  data-content="<img src='img/flags/sk.gif'> Slovakia" class="ico-country">
+                  	Slovakia                  </option>
+                                    <option data-value="SI" value="SI"  data-content="<img src='img/flags/si.gif'> Slovenia" class="ico-country">
+                  	Slovenia                  </option>
+                                    <option data-value="SB" value="SB"  data-content="<img src='img/flags/sb.gif'> Solomon Islands" class="ico-country">
+                  	Solomon Islands                  </option>
+                                    <option data-value="SO" value="SO"  data-content="<img src='img/flags/so.gif'> Somalia" class="ico-country">
+                  	Somalia                  </option>
+                                    <option data-value="ZA" value="ZA"  data-content="<img src='img/flags/za.gif'> South Africa" class="ico-country">
+                  	South Africa                  </option>
+                                    <option data-value="GS" value="GS"  data-content="<img src='img/flags/gs.gif'> South Georgia and the South Sandwich Islands" class="ico-country">
+                  	South Georgia and the South Sandwich Islands                  </option>
+                                    <option data-value="LK" value="LK"  data-content="<img src='img/flags/lk.gif'> Sri Lanka" class="ico-country">
+                  	Sri Lanka                  </option>
+                                    <option data-value="SD" value="SD"  data-content="<img src='img/flags/sd.gif'> Sudan" class="ico-country">
+                  	Sudan                  </option>
+                                    <option data-value="SR" value="SR"  data-content="<img src='img/flags/sr.gif'> Suriname" class="ico-country">
+                  	Suriname                  </option>
+                                    <option data-value="SJ" value="SJ"  data-content="<img src='img/flags/sj.gif'> Svalbard and Jan Mayen" class="ico-country">
+                  	Svalbard and Jan Mayen                  </option>
+                                    <option data-value="SZ" value="SZ"  data-content="<img src='img/flags/sz.gif'> Swaziland" class="ico-country">
+                  	Swaziland                  </option>
+                                    <option data-value="SE" value="SE"  data-content="<img src='img/flags/se.gif'> Sweden" class="ico-country">
+                  	Sweden                  </option>
+                                    <option data-value="CH" value="CH"  data-content="<img src='img/flags/ch.gif'> Switzerland" class="ico-country">
+                  	Switzerland                  </option>
+                                    <option data-value="SY" value="SY"  data-content="<img src='img/flags/sy.gif'> Syrian Arab Republic" class="ico-country">
+                  	Syrian Arab Republic                  </option>
+                                    <option data-value="TW" value="TW"  data-content="<img src='img/flags/tw.gif'> Taiwan, Province Of China" class="ico-country">
+                  	Taiwan, Province Of China                  </option>
+                                    <option data-value="TJ" value="TJ"  data-content="<img src='img/flags/tj.gif'> Tajikistan" class="ico-country">
+                  	Tajikistan                  </option>
+                                    <option data-value="TZ" value="TZ"  data-content="<img src='img/flags/tz.gif'> Tanzania, United Republic of" class="ico-country">
+                  	Tanzania, United Republic of                  </option>
+                                    <option data-value="TH" value="TH"  data-content="<img src='img/flags/th.gif'> Thailand" class="ico-country">
+                  	Thailand                  </option>
+                                    <option data-value="TL" value="TL"  data-content="<img src='img/flags/tl.gif'> Timor-Leste" class="ico-country">
+                  	Timor-Leste                  </option>
+                                    <option data-value="TG" value="TG"  data-content="<img src='img/flags/tg.gif'> Togo" class="ico-country">
+                  	Togo                  </option>
+                                    <option data-value="TK" value="TK"  data-content="<img src='img/flags/tk.gif'> Tokelau" class="ico-country">
+                  	Tokelau                  </option>
+                                    <option data-value="TO" value="TO"  data-content="<img src='img/flags/to.gif'> Tonga" class="ico-country">
+                  	Tonga                  </option>
+                                    <option data-value="TT" value="TT"  data-content="<img src='img/flags/tt.gif'> Trinidad and Tobago" class="ico-country">
+                  	Trinidad and Tobago                  </option>
+                                    <option data-value="TN" value="TN"  data-content="<img src='img/flags/tn.gif'> Tunisia" class="ico-country">
+                  	Tunisia                  </option>
+                                    <option data-value="TR" value="TR"  data-content="<img src='img/flags/tr.gif'> Turkey" class="ico-country">
+                  	Turkey                  </option>
+                                    <option data-value="TM" value="TM"  data-content="<img src='img/flags/tm.gif'> Turkmenistan" class="ico-country">
+                  	Turkmenistan                  </option>
+                                    <option data-value="TC" value="TC"  data-content="<img src='img/flags/tc.gif'> Turks and Caicos Islands" class="ico-country">
+                  	Turks and Caicos Islands                  </option>
+                                    <option data-value="TV" value="TV"  data-content="<img src='img/flags/tv.gif'> Tuvalu" class="ico-country">
+                  	Tuvalu                  </option>
+                                    <option data-value="UG" value="UG"  data-content="<img src='img/flags/ug.gif'> Uganda" class="ico-country">
+                  	Uganda                  </option>
+                                    <option data-value="UA" value="UA"  data-content="<img src='img/flags/ua.gif'> Ukraine" class="ico-country">
+                  	Ukraine                  </option>
+                                    <option data-value="AE" value="AE"  data-content="<img src='img/flags/ae.gif'> United Arab Emirates" class="ico-country">
+                  	United Arab Emirates                  </option>
+                                    <option data-value="GB" value="GB"  data-content="<img src='img/flags/gb.gif'> United Kingdom" class="ico-country">
+                  	United Kingdom                  </option>
+                                    <option data-value="US" value="US"  data-content="<img src='img/flags/us.gif'> United States" class="ico-country">
+                  	United States                  </option>
+                                    <option data-value="UM" value="UM"  data-content="<img src='img/flags/um.gif'> United States Minor Outlying Islands" class="ico-country">
+                  	United States Minor Outlying Islands                  </option>
+                                    <option data-value="UZ" value="UZ"  data-content="<img src='img/flags/uz.gif'> Uzbekistan" class="ico-country">
+                  	Uzbekistan                  </option>
+                                    <option data-value="VU" value="VU"  data-content="<img src='img/flags/vu.gif'> Vanuatu" class="ico-country">
+                  	Vanuatu                  </option>
+                                    <option data-value="VN" value="VN"  data-content="<img src='img/flags/vn.gif'> Viet Nam" class="ico-country">
+                  	Viet Nam                  </option>
+                                    <option data-value="VG" value="VG"  data-content="<img src='img/flags/vg.gif'> Virgin Islands, British" class="ico-country">
+                  	Virgin Islands, British                  </option>
+                                    <option data-value="VI" value="VI"  data-content="<img src='img/flags/vi.gif'> Virgin Islands, U.S." class="ico-country">
+                  	Virgin Islands, U.S.                  </option>
+                                    <option data-value="WF" value="WF"  data-content="<img src='img/flags/wf.gif'> Wallis And Futuna" class="ico-country">
+                  	Wallis And Futuna                  </option>
+                                    <option data-value="EH" value="EH"  data-content="<img src='img/flags/eh.gif'> Western Sahara" class="ico-country">
+                  	Western Sahara                  </option>
+                                    <option data-value="YE" value="YE"  data-content="<img src='img/flags/ye.gif'> Yemen" class="ico-country">
+                  	Yemen                  </option>
+                                    <option data-value="ZM" value="ZM"  data-content="<img src='img/flags/zm.gif'> Zambia" class="ico-country">
+                  	Zambia                  </option>
+                                    <option data-value="ZW" value="ZW"  data-content="<img src='img/flags/zw.gif'> Zimbabwe" class="ico-country">
+                  	Zimbabwe                  </option>
+                                    <option data-value="AX" value="AX"  data-content="<img src='img/flags/ax.gif'> Åland Islands" class="ico-country">
+                  	Åland Islands                  </option>
+										</select>
+									</div><!-- /col-md-6 -->
+									<div class="col-md-2 checkbox hidden-css">
+										<label>
+											<input type="checkbox"> Obligatori
+										</label>
+									</div>
+								</div><!-- /form-group  -->
+								<div class="form-group">
+									<label class="col-md-4 control-label" for="formGroupInputLarge">Telèfon</label>
+									<div class="col-md-6">
+										<input class="form-control" type="text" id="nom-freelacer" placeholder="Opcional">
+									</div>
+									<div class="col-md-2 checkbox hidden-css">
+										<label>
+											<input type="checkbox"> Obligatori
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-md-4 control-label" for="formGroupInputLarge">Suma 3 + 5</label>
+									<div class="col-md-6">
+										<input class="form-control" type="text" id="pregunta-seguretat" placeholder="Escriu la resposta">
+									</div>
+									<div class="col-md-2 checkbox hidden-css">
+										<label>
+											<input type="checkbox"> Obligatori
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-4"></div>
+									<div class="col-md-6">
+										<p>Al crear un compte confirmes que has llegit i acceptes les<a href="#" target="_blank"> Condicions generals </a>i la<a href="#" target="_blank"> Política de contractació.</a></p>
+									</div>
+								</div>
+								<div class="col-md-2"></div>
+								<div class="form-group">
+									<div class="col-md-offset-4 col-md-6">
+										<button type="submit" class="btn btn-primary btn-lg">Crear Usuari</button>
+									</div>
+									<div class="col-md-2"></div>
+								</div>								
+							</form>						
+						</div>
+						<div class="col-md-2"></div>
+				</div><hr class="linea-hor">							  
+		<!--oooooooooooooooooooooooooooooooooooooooooooooooooooooooooo  /  Final form  oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo2-->		  
+			</div><!-- /col-md-5 -->
+			<div class="col-md-4"></div>        
+</div>
+							 <!-----------------------------------  //  final Formulari Nou Usuari ----------------------------------------------------------------------------------------2-->
+<hr class="featurette-divider">
+							 <!-----------------------------------  Formulari nou ---------------------------------------------------------------------------------------------------------3-->
+</body>
+</html>
