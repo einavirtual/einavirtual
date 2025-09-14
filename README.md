@@ -1,4 +1,8 @@
-## Hi there 👋
+</div>       
+	<div class="col-sm-10">
+		<p><img class="featurette-image img-responsive center-block" src="img/logo-einavirtual-2.jpg" alt="Pàgina oficial EinaVirtual.com"></p>
+  </div>
+<div class="col-sm-1">
 
 <!--
 **einavirtual/einavirtual** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
