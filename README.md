@@ -1,6 +1,6 @@
 </div>       
 	<div class="col-sm-10">
-		<p><img class="featurette-image img-responsive center-block" src="img/logo-einavirtual-2.jpg" alt="Pàgina oficial EinaVirtual.com"></p>
+		<p><img class="featurette-image img-responsive center-block" src=".img/logo-einavirtual-2.jpg" alt="Pàgina oficial EinaVirtual.com"></p>
   </div>
 <div class="col-sm-1">
 
